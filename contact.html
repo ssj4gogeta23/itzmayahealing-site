@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact | Itz Maya Healing</title>
+  <meta name="description" content="Contact Itz Maya Healing." />
+  <link rel="icon" href="assets/favicon.png" />
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-row">
+      <a class="brand" href="index.html">Itz Maya Healing</a>
+      <nav class="nav" aria-label="Main navigation">
+        <a href="about.html">About</a>
+        <a href="services.html">Sessions</a>
+        <a href="contact.html" aria-current="page" class="btn">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="wrap">
+        <h1>Contact</h1>
+        <p class="lead">Send a message. Keep it simple — a few lines is enough.</p>
+      </div>
+    </section>
+
+    <section class="section bg-air bg-overlay">
+      <div class="wrap">
+        <div class="grid-2">
+          <div class="panel">
+            <h2>Email</h2>
+            <p class="lead" style="margin-bottom:10px;">
+              <a href="mailto:miguel@itzmaya.com">miguel@itzmaya.com</a>
+            </p>
+            <p class="small" style="margin-top:0;">
+              If you want, use this template:
+            </p>
+            <div class="panel" style="background: rgba(7,10,18,0.35); box-shadow:none;">
+              <p class="small" style="margin:0;">
+                “Hi Miguel — I’m dealing with ________. I’m looking for help with ________. Best times: ________.”
+              </p>
+            </div>
+          </div>
+
+          <div class="panel">
+            <h2>Quick send</h2>
+            <p class="small" style="margin-top:0;">
+              This button opens your email client with a prefilled subject line.
+            </p>
+            <a class="btn" href="mailto:miguel@itzmaya.com?subject=Session%20request%20(Itz%20Maya%20Healing)">Email me</a>
+
+            <p class="small" style="margin-top:14px;">
+              Later, if you want an on-page contact form without a backend, Cloudflare Pages supports simple form handling options.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-row">
+      <p>© <span id="year"></span> Itz Maya Healing</p>
+      <p><a href="mailto:miguel@itzmaya.com">miguel@itzmaya.com</a></p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
